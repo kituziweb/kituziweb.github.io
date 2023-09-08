@@ -1,27 +1,91 @@
 body{
 	background:#f2f2f2;
+	padding:0.5%;
+	margin:0.5%;
 }
 h1{
 	color:#FFFFFF;
 	text-transform:uppercase;
 	text-align:center;
+	padding-top: 2%;
 }
-main a{
-	display:none;
+nav a {
+	width: 15%;
+	padding: 1%;
+	background: rgb(255,255,255,.3);
+	border-radius: 5px;
+	font-weight: bold;
+	display: inline-block;
+	margin: 2% 2%;
+	text-decoration: none;
+	color: #000000;
+	margin-bottom: 3%;
 }
+
+a.active {
+    width: 15%;
+    padding: 1%;
+    background: #FFFFFF;
+	border-radius: 5px;
+}
+.left img{
+	display:block;
+	width:80%;
+	height:auto;
+	padding:10% 10% 0% 10%;
+}
+.left{
+	width: 22%;
+	height:max-content;
+	display:inline-block;
+	float:left;
+	background:#AB003C;
+}
+	
+
 header{
+	margin: 0%;
+	text-align:center;
 	background:#ABA800;
+	background-image:url('images/advanced-style_flywheel.jpg');
+	margin-bottom: 0%;
 }
 section{
-	background:#AB003C;
+	float:left:
+	display:inline-block;
+	background:#ffffff;
 }
 h2{
 	color:#00ABA8;
 	text-transform:uppercase;
 }
+.right{
+	padding:0.1% 1%;
+}
 p{
-	color:#ABFF00;
+	color:#000000;
 }
 table{
-	color:#FFFFFF;
+	color:#000000;
+	padding:0% 5%;
+	text-align:center;
+}
+th{
+	width:0.8%;
+	background:#01AB00;
+	padding:1.5%;
+	color:white;
+	border-radius:5px 5px 0px 0px;
+}
+td{
+	width:0.8%;
+	background:#C6ECC6;
+	padding:1.5%;
+}
+td:first-child{
+	width:3%;
+	text-align: left;
+}
+th:first-child{
+	text-align: left;
 }
